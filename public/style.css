@@ -1,0 +1,128 @@
+
+body{
+  background-image: url("header-background.jpg");
+  background-repeat:no-repeat;
+
+}
+
+.container-fluid{
+  background-color: rgb(10, 91, 161);
+  box-shadow: 1px 4px #a8c9fa;
+  padding:20px ;
+  font-size: 22px;
+  color:white;
+}
+.navbar-brand{
+  font-size: 34px !important; 
+  color: rgb(250, 244, 244) !important;
+}
+
+.active{
+  font-size: 28px !important;
+  color: rgb(5, 5, 5) !important;
+  
+}
+.head{
+  padding-top: 70px;
+  }
+
+.head h4{
+ color:rgb(3, 63, 158);
+ font-size: 60px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .head p{
+  margin-left:210px ;
+  color: black;
+ font-size: 30px;
+}
+ .head button{
+   margin-left: 270px;
+   font-size: 20px;
+   width: 140px;
+   height: 60px;
+   background-color: rgb(5, 131, 242);
+   color:white;
+   border-radius: 25px;
+   
+ }
+
+ .head p{
+   left: 120px;
+ }
+ .place h2{
+  color:rgb(3, 63, 158);
+  margin-top: 40px;
+  font-size: 60px;
+  padding: 50px;
+ }
+ .place h1{
+   font-size:80px;
+   text-align: center;
+ }
+.list-group-item{
+  font-size: 30px !important;
+  margin: 30px;
+  padding-left: 20px;
+  color: blue !important;
+  box-shadow: 4px 5px #5d5d5e !important;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  width: 800px !important;
+  height: auto !important;
+  margin-left: 50px;
+}
+
+.thumbnail{
+ 
+margin: 20px !important;
+box-shadow: 4px 6px #5d5d5e !important;
+width: 550px !important;
+height: auto !important;
+
+}
+.col-md-12{
+  padding-bottom: 30px !important;
+  padding-left: 20px !important;
+  margin: 20px !important;
+ 
+ 
+ }
+
+.font{
+   
+   width: 900px !important;
+   height: auto !important;
+  font-size: 25px !important;
+  padding-bottom: 25px !important;
+  padding-left: 20px !important;
+  margin: 20px !important;
+  
+
+}
+.footer{
+  position: fixed;
+  font-size: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(10, 91, 161);
+  color: rgb(241, 236, 236);
+  text-align:center;
+}
+.about{
+ 
+ 
+}
+.about h1{
+  color: rgb(49, 90, 252);
+  text-align: center;
+  font-size: 60px;
+  padding: 30px;
+  margin: 70px;
+}
+.about p{
+  font-size: 28px;
+  color: rgb(7, 7, 7);
+  
+}

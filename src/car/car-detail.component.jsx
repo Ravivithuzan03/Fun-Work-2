@@ -1,0 +1,46 @@
+import React, { Component } from 'react';
+import { browserHistory } from 'react-router'
+
+class CarDetail extends Component {
+  handleRedirect(){
+    browserHistory.push('/cars');
+  }
+  render(){
+    // Car array
+    const cars = this.props.route.data;
+    // Car Id from param
+    const id = this.props.params.id;
+    // Filter car with ID
+    const car = cars.filter(car => {
+      if (car.id == id) {
+        return car;
+      }
+    });
+
+    return (
+      <div>
+        <h1>{car[0].name}</h1>
+        <div className="row">
+          <div className="col-sm-6 col-md-4">
+            <div className="thumbnail">
+              <img src={car[0].media} alt={car[0].name} />
+            </div>
+          </div>
+          <div className="col-md-12">
+            <button className="btn btn-default" onClick={this.handleRedirect.bind(this)}>Go To Places</button>
+        </div>
+          <div className="col-sm-6 col-md-4">
+            <ul className="font">
+              <li><strong>Name</strong>: {car[0].name}</li>
+              <li><strong>Address</strong>: {car[0].address}</li>
+              <li><strong>Story</strong>: {car[0].story}</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default CarDetail
