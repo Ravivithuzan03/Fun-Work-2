@@ -1,12 +1,12 @@
 {
   "homepage": "http://Ravivithuzan03.github.io/Fun-Work-2",
-  "name": "s",
+  "name": "scotch-car",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preFun-Work-2":"npm run bulid",
-    "Fun-Work-2":"gh-pages -d build",
+    "predeploy":"npm run bulid",
+    "deploy":"gh-pages -d build",
     "watch": "webpack -d --watch",
     "build": "webpack",
     "serve": "serve ./public"
